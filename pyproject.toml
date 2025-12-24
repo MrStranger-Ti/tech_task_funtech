@@ -1,0 +1,22 @@
+[project]
+name = "tech-task-funtech"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.17.2",
+    "asyncpg>=0.31.0",
+    "bcrypt>=5.0.0",
+    "fastapi>=0.127.0",
+    "pydantic-settings>=2.12.0",
+    "pydantic[email]>=2.12.5",
+    "pyjwt>=2.10.1",
+    "redis>=7.1.0",
+    "slowapi>=0.1.9",
+    "sqlalchemy>=2.0.45",
+    "taskiq>=0.12.1",
+    "taskiq-aio-kafka>=0.3.0",
+    "taskiq-fastapi>=0.4.0",
+    "uvicorn>=0.40.0",
+]
